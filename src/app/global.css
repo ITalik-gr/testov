@@ -1,0 +1,41 @@
+
+.toggle-wrap {
+  padding: 20px;
+}
+.toggle-wrap select {
+  margin-right: 12px;
+  padding: 4px;
+}
+.box {
+  max-width: 80%;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.square-active {
+  background: blue;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.console {
+  max-height: 500px;
+  min-width: 270px;
+  padding: 12px;
+  overflow: auto;
+  margin-left: 24px;
+}
+
+.console-item {
+  padding: 10px 8px;
+  border: 1px solid orange;
+  margin-bottom: 5px;
+}
+.wrapper {
+  display: flex;
+}
