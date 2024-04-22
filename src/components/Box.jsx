@@ -24,12 +24,12 @@ function Box() {
     setLogs([])
   }, [searchParams.get('field')])
 
-  // Обробник наведення курсора на блок
+  // ховер курсора на блок
   const handleMouseEnter = (row, col) => {
-    // Перевіряємо, чи активний блок вже існує
+
     const isActive = activeBlocks[`${row}-${col}`];
 
-    // Змінюємо стан компонента відповідно до умови
+    // р активним
     if (!isActive) {
       setActiveBlocks({ ...activeBlocks, [`${row}-${col}`]: true });
       addLog(`row ${row}, column ${col} active: true`);
@@ -43,7 +43,7 @@ function Box() {
   };
 
 
-
+  // 
   const grid = Array.from({ length: field }, (_, rowIndex) => (
     <div className="grid-row" key={rowIndex}>
       {Array.from({ length: field }, (_, colIndex) => (

@@ -1,8 +1,6 @@
-// 'use client'
+
 import Box from "@/components/Box";
-import Console from "@/components/Console";
 import Toggle from "@/components/Toggle";
-// import { useEffect, useState } from "react";
 
 
 export default async function Home() {
